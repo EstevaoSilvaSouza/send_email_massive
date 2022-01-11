@@ -38,14 +38,14 @@ let enviar = (emails) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: "teste.estevao.noreplay@gmail.com",
-            pass: "123@qwer"
+            user: "#######",
+            pass: "####"
         },
         tls: { rejectUnauthorized: false }
     });
 
     const mailOptions = {
-        from: 'teste.estevao.noreplay@gmail.com',
+        from: '############',
         to: emails,
         subject: 'E-mail enviado usando Node!',
         text: 'Bem fácil, não? ;)'
